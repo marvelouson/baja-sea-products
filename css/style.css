@@ -1,0 +1,87 @@
+/*****
+Main Colors
+-----------
+Blue: #3D3D54, #2F68C0, #357AE4, #5B87BC, #003C77
+Gray: #666666, #DDDDDD, #F7F7F7, #FFFFFF
+
+*****/
+
+/* FONT FAMILY */
+
+@font-face {
+    font-family: Comfortaa;
+    src: url("../font/comfortaa/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+    font-family: ComfortaaLight;
+    src: url("../font/comfortaa/Comfortaa-Light.ttf");
+}
+
+@font-face {
+    font-family: ComfortaaBold;
+    src: url("../font/comfortaa/Comfortaa-Bold.ttf");
+}
+
+/* CUSTOM CSS */
+
+body {
+    font-family: Comfortaa;
+}
+
+nav>ul>li>a {
+    color: #fff;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+    max-height: 800px;
+}
+
+.carousel {
+    margin-top: -100px;
+    z-index: -1;
+}
+
+.carousel-caption {
+    top: 30%;
+}
+
+.carousel-item>img {
+    filter: drop-shadow(16px 16px 10px rgba(47, 105, 192)) invert(30%);
+}
+
+.carousel-indicators>img {
+    height: 40px;
+    width: 60px;
+    margin-left: -20px;
+}
+
+.carousel-indicators>img.active {
+    src: url(../img/blue-indicator.png);
+}
+
+#section1 {
+    margin-top: -15%;
+}
+
+/* Card */
+
+.card {
+    border-radius: 10%;
+    filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.2));
+    border: 0px;
+}
+
+#section2 {
+    background-color: #2F68C0;
+}
+
+#section3 img {
+    height: 200px;
+    width: 200px;
+    border: 0px;
+    border-radius: 10%;
+    filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.2));
+}
